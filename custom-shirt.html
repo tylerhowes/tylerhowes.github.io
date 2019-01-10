@@ -1,0 +1,82 @@
+<!doctype html>
+<head>
+<title>Foo Fighers - Custome Shirt</title>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+<link rel="stylesheet"  href="css/reset.css">
+<link rel="stylesheet"  href="css/styles.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+
+<script src="js/myScript.js"></script>
+</head>
+
+<body>
+<nav id="topnav">
+	<ul>
+		<a href = "index.html" class="Button"> Home </a>
+			<a href = "tours.html" class="Button"> Tours </a>
+			<a href = "releases.html" class="Button"> Releases </a>
+			<a href = "members.html" class="Button"> Members </a>
+			<a href = "custom-shirt.html" class="Button active-page"> Custom Shirt </a>
+			<a href = "about.html" class="Button"> About </a>
+	</ul>
+</nav>
+<div class="dropMenu">
+	<button onclick="dropDownFunction()" class="dropButton">Menu</button>
+	<div id="myDropMenu" class="dropdownContent">
+		<a href = "index.html" > Home </a>
+		<a href = "tours.html" > Tours </a>
+		<a href = "releases.html"> Releases </a>
+		<a href = "members.html" > Members </a>
+		<a href = "custom-shirt.html" class="active-page"> Custom Shirt </a>
+		<a href = "about.html"> About </a>
+	</div>
+</div> 
+
+<div class="shirtSlider">
+	<div class="cshirt-bxslider"> 
+		<div class="logo logo1"><img class="logo1img logo"src="assets/logo1.jpg"></div>
+		<div class="logo logo2"><img class="logo2img logo"src="assets/logo2.jpg"></div>
+		<div class="logo logo3"><img class="logo3img logo"src="assets/logo3.jpg"></div>
+		<div class="logo logo4"><img class="logo4img logo"src="assets/logo4.jpg"></div>
+		<div class="logo logo5"><img class="logo5img logo"src="assets/logo5.jpg"></div>
+		<div class="logo logo6"><img class="logo6img logo"src="assets/logo6.jpg"></div>
+		<div class="logo logo7"><img class="logo7img logo"src="assets/logo7.jpg"></div>
+		<div class="logo logo8"><img class="logo8img logo"src="assets/logo8.jpg"></div>
+	</div>
+</div>
+
+<div id="bg"></div>
+
+
+<canvas id = "canvas" width="800" height="525"></canvas>
+
+<img id="shirt-img"src = "assets/tshirt.png">
+<img id="shirtbg-img"src = "assets/tshirt.png">
+<div class="logoOverlay"></div>
+
+<div class="colorPalette ">
+	<div class="row1">
+		<div class="color color1"><p class ="color1v"></p></div>
+		<div class="color color2"><p class ="color2v"></p></div>
+		<div class="color color3"><p class ="color3v"></p></div>
+		<div class="color color4"><p class ="color4v"></p></div> 
+		
+	</div>
+	<div class="row2">
+		<div class="color color5"><p class ="color5v"></p></div>
+		<div class="color color6"><p class ="color6v"></p></div>
+		<div class="color color7"><p class ="color7v"></p></div>
+		<div class="color color8"><p class ="color8v"></p></div>
+	</div>
+</div>
+
+
+<!--button id="testbutton" type="button" onclick="myFunction()">Click me!</button>
+<p id="test">Hmm<p>-->
+
+</body>

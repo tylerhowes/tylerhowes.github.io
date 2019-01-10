@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+<title>Foo Fighter - Home</title>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link rel="stylesheet"  href="css/reset.css">
+<link rel="stylesheet"  href="css/styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<script src="js/myScript.js"></script>
+</head>
+
+<body>
+	<nav id="topnav">
+		<ul>
+			<a href = "index.html" class="active-page Button"> Home </a>
+			<a href = "tours.html" class="Button"> Tours </a>
+			<a href = "releases.html" class="Button"> Releases </a>
+			<a href = "members.html" class="Button"> Members </a>
+			<a href = "custom-shirt.html" class="Button"> Custom Shirt </a>
+			<a href = "about.html" class="Button"> About </a>
+		</ul>
+	</nav>
+	
+	<div class="dropMenu">
+		<button onclick="dropDownFunction()" class="dropButton">Menu</button>
+		<div id="myDropMenu" class="dropdownContent">
+			<a href = "index.html" class="active-page"> Home </a>
+			<a href = "tours.html"> Tours </a>
+			<a href = "releases.html"> Releases </a>
+			<a href = "members.html"> Members </a>
+			<a href = "custom-shirt.html"> Custom Shirt </a>
+			<a href = "about.html"> About </a>
+		</div>
+	</div> 
+	
+	<h1 class ="home-header">Foo Fighters<h1>
+	
+	<div class="homeSlider">
+	<div class="home-bxslider"> 
+	<div><a href="custom-shirt.html"><img src="assets/slider-shirt.jpg" title = "Customise your own shirt"></a></div>
+	<div><a href="releases.html"><img src="assets/slider-c&c.jpg" title = "Check out the latest albums"></a></div>
+	<div><a href="tours.html"><img src="assets/slider-tour.jpg" title = "See the latest tours"></a></div>
+	</div>
+	</div>
+	
+</body>
